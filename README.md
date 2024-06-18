@@ -7,7 +7,7 @@
 Install phpmyadmin and mySQL via docker
 
 #### 1. Clone source mysql
-[docker-mysql](https://bitbucket.org/namtech/docker-mysql/src/master/)
+[docker-mysql]
 
 #### 2. Clone the file `.env.sample` to `.env` 
 In the same directory and update the configuration for project.
@@ -104,5 +104,4 @@ $ docker image rm <name-of-image>
 # Required nodejs version >= 14.16.0
 
 #Dev note
-https://hackmd.io/@namtechsg/wpcore
 ```# Jili178

@@ -7,18 +7,10 @@
     background-image: url('../img/bg-page.jpeg');
     background-attachment: fixed;
     background-repeat: repeat;
-    padding-top: 0px;
-    padding-bottom: 80px;
 }
 
 body * {
     font-family: 'Poppins', sans-serif !important;
-}
-
-@media(max-width: 768px) {
-    #main {
-        padding-bottom: 60px;
-    }
 }
 
 /* header */
