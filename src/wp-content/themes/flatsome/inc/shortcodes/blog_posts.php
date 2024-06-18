@@ -311,7 +311,7 @@ function shortcode_latest_from_blog($atts, $content = null, $tag = '')
 							<?php } ?>
 
 							<?php if ($readmore) { ?>
-								<a href="<?php echo get_the_permalink(); ?>" class="button <?php echo $readmore_color; ?> is-<?php echo $readmore_style; ?> is-<?php echo $readmore_size; ?> mb-0">
+								<a href="<?php echo get_the_permalink(); ?>" class="button custom-class <?php echo $readmore_color; ?> is-<?php echo $readmore_style; ?> is-<?php echo $readmore_size; ?> mb-0">
 									<?php echo $readmore; ?>
 								</a>
 							<?php } ?>
