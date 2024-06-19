@@ -23,7 +23,7 @@
     </div>
 
     <!-- Left Elements -->
-    <div class="flex-col hide-for-medium flex-left 
+    <div class="flex-col hide-for-medium flex-left ct-menu-desktop
             <?php if (get_theme_mod('logo_position', 'left') == 'left') echo 'flex-grow'; ?>">
       <ul class="header-nav header-nav-main nav nav-left <?php flatsome_nav_classes('main'); ?>">
         <?php flatsome_header_elements('header_elements_left'); ?>
@@ -38,7 +38,7 @@
     </div>
 
     <!-- Mobile Right Elements -->
-    <div class="flex-col show-for-medium flex-right">
+    <div class="flex-col show-for-medium flex-right ct-hambuger-menu">
       <ul class="mobile-nav nav nav-right <?php flatsome_nav_classes('main-mobile'); ?>">
         <?php flatsome_header_elements('header_mobile_elements_right', 'mobile'); ?>
       </ul>

@@ -15,8 +15,8 @@ function add_scripts()
     // $version = '1.0.0'; //GO LIVE 
 
     // Load CSS
-    wp_enqueue_style('lucius-custom-css', THEME_URL . '-child/assets/css/custom.css', array(), $version, 'all');
+    wp_enqueue_style('lucius-custom-css', THEME_URL . '-child/style.css', array(), $version, 'all');
 
     // Load JS
-    wp_enqueue_script('lucius-custom-js', THEME_URL . '-child/assets/js/custom.js', array(), $version, true);
+    wp_enqueue_script('lucius-custom-js', THEME_URL . '-child/custom.js', array(), $version, true);
 }
